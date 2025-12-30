@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap"
+    rel="stylesheet">
+
+  <title>Recipe page</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1,
+    h2 {
+      font-family: 'Young Serif', serif;
+    }
+
+    body {
+      background: hsl(30, 54%, 90%);
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      padding: 40px 0;
+    }
+
+    .card {
+      background: white;
+      width: 100%;
+      max-width: 400px;
+      padding: 32px;
+      border-radius: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 24px;
+      color: hsl(30, 10%, 34%);
+    }
+
+    .prep {
+      background: hsla(332, 51%, 32%, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+    }
+
+    .prep h3 {
+      color: hsl(332, 51%, 32%);
+      margin-bottom: 12px;
+    }
+
+    ul,
+    ol {
+      padding-left: 20px;
+      margin-bottom: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      color: hsl(14, 45%, 36%);
+      margin-bottom: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table tr {
+      border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    table td {
+      padding: 12px 0;
+    }
+
+    table td:last-child {
+      color: hsl(14, 45%, 36%);
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <img src="images/image-omelette.jpeg" alt="Simple omelette">
+
+    <h1>Simple Omelette Recipe</h1>
+
+    <p>
+      An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+      to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    </p>
+
+    <div class="prep">
+      <h3>Preparation time</h3>
+      <ul>
+        <li><strong>Total:</strong> Approximately 10 minutes</li>
+        <li><strong>Preparation:</strong> 5 minutes</li>
+        <li><strong>Cooking:</strong> 5 minutes</li>
+      </ul>
+    </div>
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>2-3 large eggs</li>
+      <li>Salt, to taste</li>
+      <li>Pepper, to taste</li>
+      <li>1 tablespoon of butter or oil</li>
+      <li>Optional fillings: cheese, vegetables, meats</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li>Beat the eggs with salt and pepper.</li>
+      <li>Heat the pan with butter or oil.</li>
+      <li>Pour eggs and cook evenly.</li>
+      <li>Add fillings if desired.</li>
+      <li>Fold, cook briefly, and serve.</li>
+    </ol>
+
+    <h2>Nutrition</h2>
+    <p>The table below shows nutritional values per serving.</p>
+
+    <table>
+      <tr>
+        <td>Calories</td>
+        <td>277kcal</td>
+      </tr>
+      <tr>
+        <td>Carbs</td>
+        <td>0g</td>
+      </tr>
+      <tr>
+        <td>Protein</td>
+        <td>20g</td>
+      </tr>
+      <tr>
+        <td>Fat</td>
+        <td>22g</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+</html>
